@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./tab.css">
+</head>
+<body>
+	<div id="tab">
+		<ul>
+			<li>新闻</li>
+			<li>焦点</li>
+			<li>图片</li>
+			<li>娱乐</li>
+		</ul>
+		<div>新闻内容</div>
+		<div>焦点内容</div>
+		<div>图片内容</div>
+		<div>娱乐内容</div>
+	</div>
+</body>
+<script src="./tab.js"></script>
+<script>
+	window.onload=function(){
+		var a = new MyTab("tab",{"height":"300px","width":"400px","ulHeight":"30px"});
+	}
+</script>
+</html>
