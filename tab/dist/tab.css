@@ -1,0 +1,35 @@
+#tab{
+			height: 400px;
+			width: 500px;
+			border: 1px solid black;
+		}
+		#tab>ul{
+			width: 100%;
+			height: 50px;
+			padding: 0;
+			margin: 0;
+			display: flex;
+		}
+		#tab>ul>li{
+			text-align: center;
+			line-height: 50px;
+			flex: auto;
+			display: inline-block;
+			border-right: 1px solid gray;
+		}
+		#tab>ul>li:hover{
+			background: #B8B8B8;
+		}
+		.active{
+			background: #B8B8B8;
+		}
+		#tab>ul>li:last-child{
+			border-right: none;
+		}
+		#tab>div{
+			float: left;
+			width: 500px;
+			height: 350px;
+			background: gray;
+			display: none;
+		}
